@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script> 
+    <title>Shopka</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        
+        <nav class="upper-header">
+            <img src="img/Logo.png"  class="logo-img" alt="logo">
+            <a href="#" class="nav-link">Sell on Shopka</a>
+            <a href="#" class="nav-link">Register</a>
+            <input type="text" class="nav-input">
+            <img src="img/close.png" alt="close" class="close-img">
+            <a href="#" class="nav-link-electro">Consumer Electronics</a>
+            <a href="#"><button class="nav-button" style="display: none">Sign In</button></a>
+            <button class="nav-button" id ="cart-button">My Cart</button>
+            
+        </nav>
+        <nav class="lower-header"> 
+            <div class="categories-parent-div">
+                <div class = "category"><img src="img/hanger.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Clothing & Shoes</p></div>
+                <div class = "category"><img src="img/cinema.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Entertainment</p></div>
+                <div class = "category"><img src="img/concert.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Music</p></div>
+                <div class = "category"><img src="img/fitness.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Sport & Lifestyle</p></div>
+                <div class = "category"><img src="img/pets.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Pets</p></div>
+                <div class = "category"><img src="img/restaraunt.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Kitchen Accessories</p></div>
+                <div class = "category"><img src="img/observation.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Travel Equipment</p></div>
+                <div class = "category"><img src="img/barley.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Growing & Garden</p></div>
+                <div class = "category"><img src="img/powerstation.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Electrical Tools</p></div>
+                <div class = "category"><img src="img/babysitter.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Mother Care</p></div>
+                <div class = "category"><img src="img/nuclear-station.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Toys</p></div>
+                <div class = "category"><img src="img/ship-wheel.png" alt="categorie_logo" class="categorie_logo"><p class="category-text">Vintage</p></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <span class="cart-pointer"></span><span class="cart-pointer"></span>
+        <div class="side-panel" style="display: none">
+            <div class="departments-panel"><p>Departments</p>
+            </div>
+            <div class="categories-list">
+              <h3>All Categories</h3>
+                <button class = "expand-button1"><img src="img/chevron-right.png" alt="img" class="img-expand1"></button>
+                <h3 class = "categories-header">Electronics</h3>
+                    <div class="electronics-list">
+                        <p class = "electronics-par">Cell Phones & Smartphones</p>
+                        <p class = "electronics-par">Cell Phones Accessories</p>
+                        <p class = "electronics-par">Cell Phone Gatgets</p>
+                        <p class = "electronics-par">Applications</p>
+                        <p class = "electronics-par">Smart Watches</p>  
+                    </div>
+                <button class = "expand-button2"><img src="img/chevron-right.png" alt="img" class="img-expand2"></button>
+                <h3 class = "categories-header">Business & Industrial</h3>
+                    <div class="business-list">
+                        <p class = "business-par">Cell Phones & Smartphones</p>
+                        <p class = "business-par">Cell Phones Accessories</p>
+                        <p class = "business-par">Cell Phone Gatgets</p>
+                        <p class = "business-par">Applications</p>
+                        <p class = "business-par">Smart Watches</p>  
+                    </div>
+                <button class = "expand-button3"><img src="img/chevron-right.png" alt="img" class="img-expand3"></button>
+                <h3 class = "categories-header">Computer</h3>
+                    <div class="computer-list">
+                        <p class = "computer-par">Cell Phones & Smartphones</p>
+                        <p class = "computer-par">Cell Phones Accessories</p>
+                        <p class = "computer-par">Cell Phone Gatgets</p>
+                        <p class = "computer-par">Applications</p>
+                        <p class = "computer-par">Smart Watches</p>  
+                    </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="fstbtngroup-container" style="display: none">
+                <button class ="fstbtngroup">Useless first</button>
+                <button class ="fstbtngroup">Condition</button>
+                <button class ="fstbtngroup">Delivery Options</button>
+            </div>
+            <div class="scndbtngroup-container">
+                <button class="scndbtngroup inactive show-all">Show all</button>
+                <button class="scndbtngroup active auction">Available</button>
+                <button class="scndbtngroup inactive" style="display: none">Buy now</button>
+            </div>
+            <div class="item-wrapper">
+            </div>           
+        </div>
+        <div class="cart">
+            <div class="cart-item-wrapper"></div>
+            <div class="total-price-info">
+                <h3 class="total-price-header">Total Price: 0$</h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
